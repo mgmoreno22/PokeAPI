@@ -13,35 +13,39 @@
 
   <body>
     <div class="container text-center">
-      <h1>Welcome to the Pokedex</h1>
+      <h1 class="text-center">Welcome to the Pokedex</h1>
       <!-- Start of Input Field -->
-      <div class="input-group mb-3 col-md-4 mx-auto">
+      <div class="input-group mb-3 col-sm-9 col-md-6 col-lg-4 mx-auto">
         <input
-            id="pokemonID"
-            class="form-control"
-            placeholder="Please Choose a Pokemon"
+          id="pokemonID"
+          class="form-control"
+          placeholder="Please Choose a Pokemon"
         />
         <div class="input-group-append">
-            <button type="button" id="searchBtn" class="btn btn-outline-secondary">Search</button>
+          <button
+            type="button"
+            id="searchBtn"
+            class="btn btn-outline-secondary"
+          >
+            Search
+          </button>
         </div>
       </div>
-        <!-- End of Input Field -->
+      <!-- End of Input Field -->
 
-      <div class="card mx-auto" style="width: 18rem;">
-        <img src="https://img.rankedboost.com/wp-content/uploads/2016/07/Pokemon-Go-Pok%C3%A9dex.png" class="card-img-top" alt="Pokedex" />
+      <div class="card mx-auto" style="width: 18rem">
+        <img
+          src="https://img.rankedboost.com/wp-content/uploads/2016/07/Pokemon-Go-Pok%C3%A9dex.png"
+          class="card-img-top"
+          alt="Pokedex"
+        />
         <div class="card-body">
           <h5 class="card-title">POKEDEX</h5>
           <p class="card-text" id="flavorText">
             Please type the name of a Pokemon to learn more about it!
           </p>
         </div>
-        <ul class="list-group list-group-flush">
-          
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
+        <ul class="list-group list-group-flush"></ul>
       </div>
     </div>
     <script
